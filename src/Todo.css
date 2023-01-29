@@ -1,0 +1,41 @@
+.todo_input{
+    color: #1565c0;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    width: 70%;
+}
+.container_todo{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-evenly;
+
+}
+.todo_buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.todo_buttons:hover{
+    color: #1565c0 ;
+}
+.modal_style{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 100px;
+    border: 2px solid #000;
+    box-shadow: 24px;
+    background-color: whitesmoke;
+}
+.update_todo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
